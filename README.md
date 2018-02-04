@@ -91,3 +91,11 @@
           [8, 11]
           ```
 7. Solve *6.i & 6.ii* by using [List.filter](http://package.elm-lang.org/packages/elm-lang/core/5.1.1/List#filter)
+8. Putting together list operations 
+   1. Create a function that takes a list of numbers and adds 1 to each element, removes all the uneven numbers, textifies the numbers, filters out all the "Too big!" elements and returns what's left.
+      - Example:
+        ```
+        > listTransformer [1, 5, 6, 4, 2, 1]
+        ["Two", "Two", "One"]
+        ```
+   2. Solve *8.i* using the pipe operator `|>`
