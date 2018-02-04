@@ -7,7 +7,7 @@
 * https://guide.elm-lang.org/install.html - Installation
 
 ## Exercises
-### Day 1
+### Session 1 functions
 
 1. Write a function that takes a String as input and returns a String greeting to that person.
    * Example: 
@@ -46,4 +46,12 @@
          ```
          > tellMeIfThisIsEvenSmart 4
          "The number 4 is even"
-         ```
+         ```      
+### Session 2 Lists
+
+1. Create a function that adds 1 to each number to a list of numbers.
+   - Example:
+     ```
+     > add1ToAll [1, 2, 3]
+     [2, 3, 4]
+     ```
