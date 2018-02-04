@@ -76,3 +76,6 @@
          > onlyEven [1, 2, 3, 4]
          [2, 4]
          ```
+    2. Create a function that takes a list of strings and removes every string equal to "Too big!" and returns remaining elements in a list.
+    3. Create a function that takes a predicate (function taking an element and returns Bool) and a list och elements. The function will try the predicate on every element and filter out all elements that made the predicate return False.
+7. Solve *6.i & 6.ii* by using [List.filter](http://package.elm-lang.org/packages/elm-lang/core/5.1.1/List#filter)
