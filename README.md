@@ -46,12 +46,33 @@
          ```
          > tellMeIfThisIsEvenSmart 4
          "The number 4 is even"
-         ```      
+         ```
+4. [Case Of](http://elm-lang.org/docs/syntax#conditionals)
+   1. Solve by using the case-expression: Create a function that takes a number and returns "One" if the number is 1, "Two" if 2, etc, up to 5. If the number is bigger than five return "Too big!"
 ### Session 2 Lists
 
-1. Create a function that adds 1 to each number to a list of numbers.
-   - Example:
-     ```
-     > add1ToAll [1, 2, 3]
-     [2, 3, 4]
-     ```
+1. Combine two lists together.
+2. Create a function that returns the first element of a list
+3. Create a function that returns the last element of a list
+4. Function on elements
+   1. Create a function that adds 1 to each number to a list of numbers.
+       - Example:
+         ```
+         > add1ToAll [1, 2, 3]
+         [2, 3, 4]
+         ```
+   2. Create a function applies the function created in *Session 1 4.i* to each number in the list, resulting in a list of strings.
+      - Example:
+        ```
+        > textifyNumbers [1, 2, 6]
+        ["One", "Two", "Too big!"]
+        ```
+   3. Create a function that takes a function and a list and then applies the function to each element.
+ 5. Solve *4.i & 4.ii* using [List.map](http://package.elm-lang.org/packages/elm-lang/core/5.1.1/List#map)
+ 6. Filter lists
+    1. Create a function that takes a list of numbers and filters out all the uneven numbers, returning only the even numbers in a list.
+       - Example
+         ```
+         > onlyEven [1, 2, 3, 4]
+         [2, 4]
+         ```
