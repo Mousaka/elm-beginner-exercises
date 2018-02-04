@@ -69,11 +69,11 @@
         ```
    3. Create a function that takes a function and a list and then applies the function to each element.
        - Example:
-        ```
-        > add1 n = n + 1 
-        > applyMyFunctionToAll add1 [1, 2, 3]
-        [2, 3, 4]
-        ```
+         ```
+         > add1 n = n + 1 
+         > applyMyFunctionToAll add1 [1, 2, 3]
+         [2, 3, 4]
+         ```
  5. Solve *4.i & 4.ii* using [List.map](http://package.elm-lang.org/packages/elm-lang/core/5.1.1/List#map)
  6. Filter lists
     1. Create a function that takes a list of numbers and filters out all the uneven numbers, returning only the even numbers in a list.
